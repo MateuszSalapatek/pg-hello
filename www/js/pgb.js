@@ -20,3 +20,12 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function myInfo() {
+
+	info =  'My name is Mateusz' +'\n' +
+	         'Surname is Sałapatek';
+
+	navigator.notification.alert(info);
+	
+}
